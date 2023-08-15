@@ -7,16 +7,16 @@ const NavBar = () => {
   return (
     <header>
         <Link to={"/"}>
-            <img className="logo" src="./img/logo.png" alt="" />
+            <img className="logo" src="./img/logo.png" alt="logo BikeCenter" />
         </Link>
         <nav>
             <ul>
                 <li>
-                  <NavLink to={`/categoria/2`}> MOUNTAIN BIKE </NavLink>
+                  <NavLink activeClassName="active" className="miBtn"  to={`/categoria/2`}> MOUNTAIN BIKE</NavLink>
                 </li>
 
                 <li>
-                  <NavLink to={`/categoria/3`}> ACCESORIOS </NavLink>
+                  <NavLink activeClassName="active" className="miBtn"  to={`/categoria/3`}> ACCESORIOS </NavLink>
                 </li>
 
             </ul>

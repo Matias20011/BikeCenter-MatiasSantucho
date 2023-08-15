@@ -24,7 +24,7 @@ img:hover{
 }
 
 .imgDetail{
-    border: 3px solid black;
+    border: 3px solid rgba(0, 0, 0, 0);
 }
 
 
